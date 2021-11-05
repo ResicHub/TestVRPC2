@@ -436,7 +436,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8b70cf81ea3db4a4ea34c5b8871bb7df,
         type: 3}
       propertyPath: m_Name
-      value: platform2
+      value: Control Panel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b70cf81ea3db4a4ea34c5b8871bb7df, type: 3}
