@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!65 &5630930885142895111
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8164497487442938918}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23490791, y: 0.2479478, z: 0.099999994}
+  m_Center: {x: 0, y: 0, z: 0.09709809}
 --- !u!1001 &4476050287556374915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62,6 +75,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3508234632618426971, guid: 1dbc349e3d645aa439b51c85857ec5bc,
+        type: 3}
+      propertyPath: m_Name
+      value: putton moving part
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1dbc349e3d645aa439b51c85857ec5bc,
         type: 3}
       propertyPath: m_Name
@@ -72,5 +90,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.156
       objectReference: {fileID: 0}
+    - target: {fileID: 8907369562462073684, guid: 1dbc349e3d645aa439b51c85857ec5bc,
+        type: 3}
+      propertyPath: m_Name
+      value: button platform
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dbc349e3d645aa439b51c85857ec5bc, type: 3}
+--- !u!1 &8164497487442938918 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3508234632618426971, guid: 1dbc349e3d645aa439b51c85857ec5bc,
+    type: 3}
+  m_PrefabInstance: {fileID: 4476050287556374915}
+  m_PrefabAsset: {fileID: 0}
